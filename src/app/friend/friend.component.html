@@ -1,0 +1,18 @@
+ <div class="friends">
+  
+    <h3>View Friends</h3>
+    <a>list all your friends</a>
+    <button (click)="viewFriends()">View friends</button>
+    <h3>Add Friend</h3>
+    <a>Give the name and add to your list</a>
+    <input type="text" name="nom">
+    <button>Add friends</button>
+      <h3>Remove Friend</h3>
+      <a>Want to break with friend ? Remove him/her from your list</a>
+      <input type="text" name="nom">
+      <button>Remove friend</button>
+    </div>
+    <div class="screen" *ngFor="let Lect of friends">
+      <p><img [src]="'https://i.pravatar.cc/150?u='+myEncode(Lect.name)"/></p>
+  <p>{{Lect.name}}</p>
+</div>

@@ -1,0 +1,40 @@
+header { 
+background-color: #333;
+height: 100px;
+color: #9d9d9d;
+ }
+ #global {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; /* largeur obligatoire pour être centré */
+}
+ .titre{
+float:  left;
+ }
+ .email { 
+float: right;
+height: 25px;
+  }
+.password { 
+float: right;
+height: 25px;
+ }
+.bouton {
+float: right;
+}
+.textcentre {
+background-color: orange;
+}
+.View { 
+  float: left;
+width: auto;
+}
+.Add { 
+width: auto;
+padding-left: 20px;
+ }
+
+ .Remove {
+float: right;
+width: auto;
+ }
